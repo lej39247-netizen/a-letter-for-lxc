@@ -320,3 +320,10 @@ body {
         opacity: 0.5;
     }
 }
+
+@media (max-width: 600px) {
+    #envelope {
+        animation: none !important;
+        transform: none;
+    }
+}
